@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import TaskForm from "../components/TaskForm";
 
-const API_URL = "http://localhost:8000/api/tasks";
+const API_URL = "https://tms-server-g26p.onrender.com/api/tasks";
 
 function Dashboard() {
     const [tasks, setTasks] = useState([]);

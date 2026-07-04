@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/tasks";
+const API_URL = "https://tms-server-g26p.onrender.com/api/tasks";
 
 function TaskForm({ onTaskAdded }) {
   const [formData, setFormData] = useState({
